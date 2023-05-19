@@ -46,8 +46,8 @@ export default {
     }
   },
   axios: {
-    // baseURL: 'http://localhost:8000/api/',
-    baseURL: 'http://192.168.1.4:8000/api/',
+    baseURL: 'http://localhost:8000/api/',
+    // baseURL: 'http://192.168.1.4:8000/api/',
     credentials: false, // this says that in the request the httponly cookie should be sent
     proxyHeaders: false,
   },
